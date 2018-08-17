@@ -1,0 +1,26 @@
+{
+  "name": "node-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "async": "^2.6.1",
+    "express": "^4.16.3",
+    "json-rpc2": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhang0135789/node-demo.git"
+  },
+  "author": "zz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhang0135789/node-demo/issues"
+  },
+  "homepage": "https://github.com/zhang0135789/node-demo#readme"
+}
