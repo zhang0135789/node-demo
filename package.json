@@ -11,7 +11,8 @@
     "multer": "^1.3.1",
     "mysql": "^2.16.0",
     "thirty-two":"^1.0.2",
-    "intervaluecore": "git+https://github.com/intervalue/intervalue-lightnodecore-3.0-testnet.git"
+    "intervaluecore": "git+https://github.com/intervalue/intervalue-lightnodecore-3.0-testnet.git",
+    "ws": "^1.0.1"
   },
   "devDependencies": {},
   "scripts": {
