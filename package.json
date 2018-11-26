@@ -12,7 +12,8 @@
     "mysql": "^2.16.0",
     "thirty-two":"^1.0.2",
     "intervaluecore": "git+https://github.com/intervalue/intervalue-lightnodecore-3.0-testnet.git",
-    "ws": "^1.0.1"
+    "ws": "^1.0.1",
+    "bitcoin-lib": "git+https://github.com/bitcoinjs/bitcoinjs-lib.git"
   },
   "devDependencies": {},
   "scripts": {
