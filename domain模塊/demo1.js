@@ -24,6 +24,8 @@ domain1.on('error', function(err){
 // 显式绑定
 domain1.add(emitter1);
 
+
+//监听器无法处理到的错误
 emitter1.on('error',function(err){
     console.log("监听器处理此错误 ("+err.message+")");
 });
@@ -34,18 +36,25 @@ emitter1.removeAllListeners('error');
 
 emitter1.emit('error',new Error('通过 domain1 处理'));
 
+
+
+
+
 var domain2 = domain.create();
 
 domain2.on('error', function(err){
     console.log("domain2 处理这个错误 ("+err.message+")");
 });
 
-// 隐式绑定
+
+
+//隐式绑定
 domain2.run(function(){
     var emitter2 = new EventEmitter();
+    // throw  '11111';
     emitter2.emit('error',new Error('通过 domain2 处理'));
 });
-
-
+//
+//
 domain1.remove(emitter1);
 emitter1.emit('error', new Error('转换为异常，系统将崩溃!'));
