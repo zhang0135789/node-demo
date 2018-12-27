@@ -4,7 +4,7 @@
 
 const WebSocket = require('ws');
 
-const ws = new WebSocket('ws://localhost:8080');
+const ws = new WebSocket('ws://192.168.5.149:8286');
 
 ws.on('open', function open() {
     ws.send('Hi Server');
