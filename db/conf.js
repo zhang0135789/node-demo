@@ -46,6 +46,7 @@ exports.bIgnoreUnpairRequests = false;
 
 // storage engine: mysql or sqlite
 exports.storage = 'sqlite';
+exports.path = 'sqlite';
 if (process.browser){
 	exports.storage = 'sqlite';
 	exports.bLight = true;

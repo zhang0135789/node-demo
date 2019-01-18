@@ -1,3 +1,15 @@
 # Created by .ignore support plugin (hsz.mobi)
 /.idea/
 /node-demo.iml
+/db2/
+/db2/mysql_pool.js
+/db2/sqlite_pool.js
+/db2/demo1.js
+/db2/demo5_delete.js
+/db2/demo4_update.js
+/db2/sqlite_migrations.js
+/db2/db.js
+/db2/demo3_insert.js
+/db2/conf.js
+/db2/demo2_query.js
+/db2/demo6_sqlite.js

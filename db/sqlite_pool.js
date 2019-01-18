@@ -15,7 +15,7 @@ if (bCordova){
 }
 else{
 	sqlite3 = require('sqlite3');//.verbose();
-	path = '/home/zz/.config/test-hub' + '/';
+	path = '/home/zz/.config/test-w3' + '/';
 	console.log("path="+path);
 }
 
