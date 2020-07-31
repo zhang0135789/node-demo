@@ -9,7 +9,7 @@ const rl = readline.createInterface({
     output: process.stdout
 })
 
-const ws = new WebSocket('ws://127.0.0.1:8801');
+const ws = new WebSocket('ws://127.0.0.1:8286');
 // const ws = new WebSocket('ws://localhost:4000');
 
 ws.on('open', function open() {
